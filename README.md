@@ -100,6 +100,3 @@ POST http://localhost:8080/api/nfts/buy
 
 ### 👨‍💻 Author
 Made with ❤️ by [Asadullah Nadeem](https://github.com/asadullah-nadeem)
-
-### 📝 License
-This project is under the [MIT License](LICENSE)
