@@ -48,7 +48,7 @@ Make sure you have:
 
 ```bash
 git clone https://github.com/Asadullah-nadeem/digital-NFT-Backend.git
-cd backend
+cd digital-NFT-Backend
 ```
 
 #### 2️⃣ Configure MySQL in `application.properties`
