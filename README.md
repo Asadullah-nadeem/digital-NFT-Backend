@@ -72,11 +72,11 @@ Backend will start at: `http://localhost:8080`
 
 ### 📡 API Endpoints
 
-| Method     | Endpoint             | Description                |
-| ---------- | -------------------- | -------------------------- |
-| Remove GET | `/api/nfts`        | Get all NFTs               |
-| POST       | `/api/nfts/buy`    | Log buy actions (wallet)   |
-| GET        | `/assets/nfts.png` | Get NFT image from backend |
+| Method        | Endpoint             | Description                |
+| ------------- | -------------------- | -------------------------- |
+| Remove it GET | `/api/nfts`        | Get all NFTs               |
+| POST          | `/api/nfts/buy`    | Log buy actions (wallet)   |
+| GET           | `/assets/nfts.png` | Get NFT image from backend |
 
 ### 🐳 Run with Docker
 
