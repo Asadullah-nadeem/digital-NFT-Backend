@@ -17,11 +17,6 @@ public class ClicklogController {
     @Autowired
     private ClicklogService ClicklogService;
 
-    // @GetMapping
-    // public List<ClickLog> getNFTs() {
-    //     return ClicklogService.getAllNFTs();
-    // }
-
     @PostMapping("/buy")
     public String buy(@RequestBody BuyRequest request, HttpServletRequest req) {
         return ClicklogService.handleBuy(request, req);
