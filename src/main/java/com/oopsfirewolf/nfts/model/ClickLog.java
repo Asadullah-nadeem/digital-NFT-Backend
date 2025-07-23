@@ -1,7 +1,11 @@
 package com.oopsfirewolf.nfts.model;
 
-import jakarta.persistence.*;
 import java.time.LocalDateTime;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 @Entity
 public class ClickLog {
@@ -11,17 +15,20 @@ public class ClickLog {
 
     private Long nftId;
     private String wallet;
-    private String type; // success or failed
+    private String type;
     private String ipAddress;
     private String accessKey;
     private LocalDateTime timestamp = LocalDateTime.now();
 
-    // Getters and Setters
-
     public Long getId() { return id; }
-    public void setId(Long id) { this.id = id; }
+    public void setId(Long id) {
+      this.id = id;
+     }
 
-    public Long getNftId() { return nftId; }
+    public Long getNftId() {
+       return nftId;
+     }
+
     public void setNftId(Long nftId) { this.nftId = nftId; }
 
     public String getWallet() { return wallet; }

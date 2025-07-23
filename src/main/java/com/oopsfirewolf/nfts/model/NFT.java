@@ -1,6 +1,9 @@
 package com.oopsfirewolf.nfts.model;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 @Entity
 public class NFT {
@@ -14,7 +17,6 @@ public class NFT {
     private String imageUrl;
     private int clicks;
 
-    // Getters and setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
@@ -33,3 +35,6 @@ public class NFT {
     public int getClicks() { return clicks; }
     public void setClicks(int clicks) { this.clicks = clicks; }
 }
+
+
+

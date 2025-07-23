@@ -1,8 +1,8 @@
 ## 📦 OopsFire Wolf — Backend API
 
-This is the **backend API** for the **OopsFire Wolf NFT Project**, built using **Spring Boot**.  
+This is the **backend API** for the **OopsFire Wolf NFT Project**, built using **Spring Boot**.
 It connects to a MySQL database, provides REST APIs to handle NFTs, tracks wallet actions, and serves static images.
-  
+
 <img width="1906" height="974" alt="image" src="https://github.com/user-attachments/assets/7feeecdb-f265-4c82-aa91-68e5ab0700b1" />
 
 ### 🚀 Features
@@ -40,6 +40,7 @@ backend/
 ### ⚙️ Installation & Running (Development)
 
 Make sure you have:
+
 - Java 17
 - Maven
 - A running MySQL server (or use Docker)
@@ -71,11 +72,11 @@ Backend will start at: `http://localhost:8080`
 
 ### 📡 API Endpoints
 
-| Method | Endpoint            | Description            |
-|--------|---------------------|------------------------|
-| GET    | `/api/nfts`         | Get all NFTs           |
-| POST   | `/api/nfts/buy`     | Log buy actions (wallet) |
-| GET    | `/assets/nfts.png`  | Get NFT image from backend |
+| Method | Endpoint             | Description                |
+| ------ | -------------------- | -------------------------- |
+| GET    | `/api/nfts`        | Get all NFTs               |
+| POST   | `/api/nfts/buy`    | Log buy actions (wallet)   |
+| GET    | `/assets/nfts.png` | Get NFT image from backend |
 
 ### 🐳 Run with Docker
 
@@ -99,4 +100,5 @@ POST http://localhost:8080/api/nfts/buy
 ```
 
 ### 👨‍💻 Author
+
 Made with ❤️ by [Asadullah Nadeem](https://github.com/asadullah-nadeem)
