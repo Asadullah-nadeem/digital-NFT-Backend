@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 
 import com.oopsfirewolf.nfts.dto.BuyRequest;
 import com.oopsfirewolf.nfts.model.ClickLog;
-import com.oopsfirewolf.nfts.model.NFT;
 import com.oopsfirewolf.nfts.repository.ClickLogRepository;
 import com.oopsfirewolf.nfts.repository.NFTRepository;
 
@@ -56,5 +55,6 @@ public class ClicklogService {
             return "Invalid access key";
         }
         return "✅ Buy recorded for wallet: " + request.getWallet();
+
     }
 }
