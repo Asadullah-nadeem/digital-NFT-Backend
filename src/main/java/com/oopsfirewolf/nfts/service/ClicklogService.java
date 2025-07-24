@@ -14,7 +14,7 @@ import jakarta.servlet.http.HttpServletRequest;
 
 @Service
 public class ClicklogService {
-    private static final String ACCESS_KEY = "AHSDGJKSAHLJD)(@$*4234)3424";
+    private static final String ACCESS_KEY = "A@$*42343424";
 
     @Autowired
     private NFTRepository nftRepository;
